@@ -1,0 +1,23 @@
+
+#
+# comments
+# #  this is a comment
+# // this is a comment
+# -- this is a comment (lua style)
+#
+# special commands:
+#
+# set tag alias, old tag will be overwritten with new tag
+# =oldTag=newTag
+#
+# custom string for specific language
+# /text_xx/tag=string
+#
+
+# https://forums.crateentertainment.com/t/tool-rainbow-filter-item-highlighting/42765/658
+tagHUD_CooldownMinutes=^R {%d0}:{%d1}
+tagHUD_CooldownSeconds=^Y {%d0}
+tagHUD_CooldownShort=^G {%d0}
+
+# Its not a "right" (opposite of left) speaker
+/text_de/tagItemSetD006BName=Siegel des Rechtsprechers
